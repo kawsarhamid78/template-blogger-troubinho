@@ -399,29 +399,7 @@ margin-left: 166px;
   border-top: 2px solid $(link.hover.color);
 }
 
-/* Widgets
------------------------------------------------ */
-.widget ul, .widget #ArchiveList ul.flat {
-  padding: 0;
-  list-style: none;
-}
 
-.widget ul li, .widget #ArchiveList ul.flat li {
-  border-top: dashed 1px #ccc;
-  border-top: dashed 1px rgba(128, 128, 128, .5);
-}
-
-.widget ul li:first-child, .widget #ArchiveList ul.flat li:first-child {
-  border-top: none;
-}
-
-.widget .post-body ul {
-  list-style: disc;
-}
-
-.widget .post-body ul li {
-  border: none;
-}
 
 /* Footer
 ----------------------------------------------- */
@@ -717,7 +695,7 @@ text-decoration: none;
 }
 
 .img-circle{
-padding:10px;
+padding-bottom:10px !important;
 }
 
 .widget-content{background:#fff ;}
@@ -1009,11 +987,11 @@ height: 100px; /* the height in pixels of your background image */
 .post-labels{
  margin:0;
  padding:10px;
+ line-height:2.5 !important;
  }
 .post-labels a{
-              float:left;
  height:25px;
- line-height:5px;
+ line-height:1.4 !important;
  font:13px verdana;
  margin-bottom: 9px;
  margin-left:10px;
@@ -1305,7 +1283,7 @@ head.appendChild(script);
   <div class='row'>
     <div class='col-xs-6 col-md-4'>
       <div class='perfil'>
-<img alt='Ana Júlia' class='img-circle' height='267px' src='http://1.bp.blogspot.com/-RGBKi2BHdos/VTf4Quld1BI/AAAAAAAAAGw/IE9NA_QmTxA/s1600/foto-perfil-disney.JPG' width='267px'/><br/>Ana Júlia, 11 anos, blogueira, ama Disney, looks e gravar. Tem vontade de pular de paraquedas. <a href='http://blogsoontobedelete.blogspot.com.br/p/sobre.html'>Quer saber mais?</a></div>
+<img alt='Ana Júlia' class='img-circle' height='260px' src='http://1.bp.blogspot.com/-RGBKi2BHdos/VTf4Quld1BI/AAAAAAAAAGw/IE9NA_QmTxA/s1600/foto-perfil-disney.JPG' width='260px'/><br/><br/>Ana Júlia, 11 anos, blogueira, ama Disney, looks e gravar. Tem vontade de pular de paraquedas. <a href='http://blogsoontobedelete.blogspot.com.br/p/sobre.html'>Quer saber mais?</a></div>
 
 <div class='circle'><a href='http://blogsoontobedelete.blogspot.com/p/contato.html'><i class='fa fa-at fa-lg'/></a></div>
 <div class='circle'><a href='https://instagram.com/anajuliablanco/'><i class='fa fa-instagram fa-lg'/></a></div>
@@ -2129,8 +2107,9 @@ head.appendChild(script);
         <b:include cond='data:post.sharePostUrl' data='post' name='shareButtons'/>
       </div> </div>
 
+      
       <div class='post-footer-line post-footer-line-2'><span class='post-labels'>
-        <b:if cond='data:post.labels'>
+        <b:if cond='data:post.labels'>Tags
 
           <b:loop values='data:post.labels' var='label'>
 
@@ -2402,7 +2381,7 @@ head.appendChild(script);
 
   <div class='comments' id='comments'>
     <a name='comments'/>
-<a class='comentar' style='font-family:Stalemate;font-size:40px;text-decoration:none;color:#cd65e3;' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>Comentar</a>
+<a class='comentar' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick' style='font-family:Stalemate;font-size:40px;text-decoration:none;color:#cd65e3;'>Comentar</a>
     <div class='comments-content'>
       <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
       <div id='comment-holder'>
@@ -2588,27 +2567,6 @@ head.appendChild(script);
 </script>
 
 
-<!--Page Navigation Starts-->
-<b:if cond='data:blog.pageType != &quot;item&quot;'>
-<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-<script type='text/javascript'>
-  /*<![CDATA[*/
-    var perPage=7;
-    var numPages=6;
-    var firstText ='Primeira';
-    var lastText ='Última';
-    var upPageWord ='« Anterior';
-    var downPageWord ='Próxima »';
-    var urlactivepage=location.href;
-    var home_page="/";
-  /*]]>*/
-</script>
-  <script src='http://helplogger.googlecode.com/svn/trunk/page-navigation2.js'/>
-</b:if>
-</b:if>
-<!--Page Navigation Ends -->
-
-
 <!--Smooth Back to Top Button Start-->
 <script>
 jQuery(document).ready(function() {
@@ -2629,6 +2587,10 @@ return false;
 });
 </script>
 <!--Smooth Back to Top Button Ends-->
+
+
+<!--Infinite scroll-->
+<script type="text/javascript" src="http://yourjavascript.com/40233106134/infinite-scroll.js"></script>
 
 </body>
 
