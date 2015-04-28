@@ -692,11 +692,6 @@ color: #9900b9;
 .perfil a:hover{
 text-decoration: none;
 }
-}
-
-.img-circle{
-padding-bottom:10px !important;
-}
 
 .widget-content{background:#fff ;}
 
@@ -971,16 +966,14 @@ text-decoration:none;
 /* Comment-link Index Page
 ----------------------------------------------- */
 .post-comment-link a {
-padding:20px;
 text-decoration:none;
-font-size:40px;
+font-size:38px;
 font-family:Stalemate;
-background-image:url(http://3.bp.blogspot.com/-thD0Zz32k_s/VT2aIXFAIcI/AAAAAAAAAKg/g8koedNCfyY/s1600/heart-comment.png);
-background-position: left;  /*centering the bg behind the text*/
-background-repeat: no-repeat; /*this is a non-repeating image, we only want it displayed once*/
-height: 100px; /* the height in pixels of your background image */
 }
 
+.post-comment-link img {
+padding-bottom:10px;
+}
 
 /* Labels
 ----------------------------------------------- */
@@ -1408,6 +1401,7 @@ head.appendChild(script);
             <b:if cond='data:blog.url == data:blog.homepageUrl'> 
 <style type='text/css'>
 .navbar {display:none;}
+.perfil-sidebar {display:none;}
 </style>
 
   <!-- only display title if it's non-empty -->
@@ -1453,6 +1447,24 @@ head.appendChild(script);
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+       <div class='$bs-recent-posts-widget'>
+        <script src='http://helplogger.googlecode.com/svn/trunk/listbadge.js'>{&quot;pipe_id&quot;:&quot;1a6640e2a78b2c6e736f2220529daae5&quot;,&quot;_btype&quot;:&quot;list&quot;,
+        &quot;pipe_params&quot;:{&quot;URL&quot;:&quot;http://blogsoontobedelete.blogspot.com/feeds/posts/default&quot;},
+        &quot;hideHeader&quot;:&quot;false&quot;,&quot;height&quot;:&quot;&quot;,&quot;count&quot;: 4 }</script>
+        <noscript>Your browser does not support JavaScript!</noscript></div>
+        <style type='text/css'>
+    .pipesThumbnail {width: 90px;height: 70px;float: left;margin-right: 10px;border-radius: 50px 50px 50px 50px;}
+        .$bs-recent-posts-widget {margin:10px 0px;padding:0px;}
+        .ybr li  {padding:0px 0px 10px 0px!important;}
+        .pipesTitle {padding-top:0px;}
+        .pipesDescription {display:none;}
+        .ycdr {background:transparent url(http://3.bp.blogspot.com/-oxTuqVj1ziA/T6P6wtxqsgI/AAAAAAAACBE/wWR0bb2gfuE/s1600/logo.png) 0px 0px no-repeat; padding: 1px 0px 0px 19px; height:14px; margin: 4px 0px 0px 0px;line-height:14px;}
+        .ycdr, .ycdr a {color:#999999;}
+        .widget .popular-posts ul {padding-left:0;}
+        </style>
+
+
 </div>
 
 </b:if>
@@ -2088,7 +2100,7 @@ head.appendChild(script);
       </span> <span class='post-comment-link' style='Float:right;'>
 
 <b:if cond='data:post.allowComments'>
-            <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 0'><b:else/> <b:if cond='data:post.numComments == 1'><data:post.numComments/> Comentário<b:else/><data:post.numComments/> Comentários</b:if> </b:if></a>
+            <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><img src='http://4.bp.blogspot.com/-0Wigi9nZjvs/VT7vRm5bB-I/AAAAAAAAAK4/wiwxqYyx8P4/s1600/heart-comment-1.png'/><b:if cond='data:post.numComments == 0'><b:else/> <b:if cond='data:post.numComments == 1'><data:post.numComments/> Comentário<b:else/><data:post.numComments/> Comentários</b:if> </b:if></a>
 </b:if>
 
       </span> <span class='post-icons'>
@@ -2590,7 +2602,7 @@ return false;
 
 
 <!--Infinite scroll-->
-<script type="text/javascript" src="http://yourjavascript.com/40233106134/infinite-scroll.js"></script>
+<script src='http://yourjavascript.com/40233106134/infinite-scroll.js' type='text/javascript'/>
 
 </body>
 
@@ -2634,6 +2646,19 @@ return false;
 </macro:includable>
 
 <b:section-contents id='sidebar-left-1'>
+  <b:widget id='HTML6' locked='false' title='' type='HTML'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content' style='background:transparent'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
   <b:widget id='HTML2' locked='false' title='Instagram' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
