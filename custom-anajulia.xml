@@ -761,6 +761,18 @@ height: 10px;
 
 }
 
+.post-title
+{ 
+border-bottom:2px solid #f5f5f5; 
+}
+
+.post-footer
+{ 
+border-bottom:2px solid #f5f5f5;
+padding:10px 0px 30px 0px;
+}
+
+
 /* CUSTOM BOOTSTRAP
 ----------------------------------------------- */
 .navbar-brand,
@@ -786,7 +798,8 @@ display: block;
     }
 }
 
-/* CUSTOM CONTACT FORM BY XOMISSE */
+/* CUSTOM CONTACT-FORM
+----------------------------------------------- */
 .contact-form-widget {
 width: 500px; /* CHANGE WIDTH OF CONTAINER */
 max-width: 100%;
@@ -794,11 +807,20 @@ padding: 10px;
 background: #FFFFFF; /* CHANGE BACKGROUND COLOUR OF CONTAINER */
 color: #000; /* CHANGE TEXT COLOUR OF CONTAINER */
 font-family: Helvetica;
+font-size: 11px;
 border: 0px solid #EEEEEE; /* CHANGE BORDER OF CONTAINER */
 margin: 0 auto; /* REMOVE IF YOU DON'T WANT IT CENTERED */
 }
 
-.contact-form-name, .contact-form-email, .contact-form-email-message { width: 100%; max-width: 500px; margin-bottom: 10px; /* CHANGE WIDTH OF FORM ENTRIES */ }
+.contact-form-name, .contact-form-email, .contact-form-email-message { 
+width: 100%; 
+max-width: 500px; 
+margin-bottom: 10px;
+  text-indent: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 
 .contact-form-button-submit {
 font-size: 13pt;
@@ -839,8 +861,6 @@ text-align: center;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
-
-/* END CUSTOM CONTACT FORM BY XOMISSE */
 
 /* SEARCH
 ----------------------------------------------- */
@@ -905,64 +925,111 @@ input:focus::-moz-placeholder {
 /* COMMENTS
 ----------------------------------------------- */
 
+.comments h4
+{
+color:#ffffff;
+display: inline-block !important;
+background:#cd65e3;
+padding:10px;
+font-family:Helvetica;
+font-size:15px;
+}
+.comments .comment .comment-actions a {
+background:#f5f5f5;
+border-radius: 5px;
+color: #9900b9;
+font:12px georgia;
+margin-right: 8px;
+padding:5px;
+text-decoration: none !important;
+}
 .comments .comment-block {
-color: #555;
-margin-top: 10px;
-margin-left: 60px;
-padding: 10px;
-font: 13px/1.5 Helvetica;
+padding: 10px 10px 40px 10px;
 border-bottom:2px solid #f5f5f5; 
 }
-
-.comments .avatar-image-container {
-width: 60px;
-height: 60px;
-max-height: 60px;
-margin:0px 0px 0 -5px;
-padding: 0px;
-border: 3px solid #EEEEEE;
-border-radius:60px;
+.continue
+{
+border-top:none !important;
 }
-.comments .avatar-image-container img {
-overflow:hidden;
-width: 60px;
-height: 60px;
-max-width: 60px;
-border:0 !important;
+.continue a {
+background:#f5f5f5;
 border-radius:5px;
-}
-.comments .comment-thread.inline-thread {
-background: none;
-}
-.comments .continue {
-border-top: 0px solid transparent;
-}
-.comments .comments-content .datetime {
-float: right;
-font-size: 13px;
-}
-.comments .comments-content .user a{
-font-size: 15px;
-color: #cd65e3;
-}
-.comments .comments-content .datetime a:hover{
-color: #777;
-text-decoration: none;
-}
-.comments .comments-content .comment:first-child {
-padding-top: 0px;
-}
-.comments .comments-content .comment {
-margin-bottom: 0px;
-padding-bottom: 0px;
-}
-.comments .continue a {
-padding: 0px;
-}
-.comments .comments-content .icon.blog-author {
-background-image: none;
+color: #9900b9;
+display: inline-block !important;
+margin-top: 8px;
+padding:10px;
+text-decoration: none !important;
+font:12px georgia;
+font-weight:normal !important;
 }
 
+.comment-header a {
+color: #222222 !important;
+}
+#comments .avatar-image-container img {
+border:2px solid #f0f0f0;
+border-radius: 50px 50px 50px 50px;
+height: 58px;
+max-width: 58px;
+}
+.comments .avatar-image-container {
+border: 2px solid #FFFFFF;
+border-radius: 34px 34px 34px 34px;
+box-shadow: 1px 1px 3px #dcdcdc;
+float: left;
+margin-left: -10px;
+max-height: 61px !important;
+overflow: hidden;
+width: 61px !important;
+}
+
+.comments .user a{
+font-size: 15px;
+color: #cd65e3 !important;
+text-decoration:none;
+}
+
+
+/* Comment-link Index Page
+----------------------------------------------- */
+.post-comment-link a {
+padding:20px;
+text-decoration:none;
+font-size:40px;
+font-family:Stalemate;
+background-image:url(http://3.bp.blogspot.com/-thD0Zz32k_s/VT2aIXFAIcI/AAAAAAAAAKg/g8koedNCfyY/s1600/heart-comment.png);
+background-position: left;  /*centering the bg behind the text*/
+background-repeat: no-repeat; /*this is a non-repeating image, we only want it displayed once*/
+height: 100px; /* the height in pixels of your background image */
+}
+
+
+/* Labels
+----------------------------------------------- */
+.post-labels{
+ margin:0;
+ padding:10px;
+ }
+.post-labels a{
+              float:left;
+ height:25px;
+ line-height:5px;
+ font:13px verdana;
+ margin-bottom: 9px;
+ margin-left:10px;
+ padding:5px 10px;
+  text-decoration:none;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  color: #cd65e3;
+  
+  text-align: center;
+}
+
+.post-labels a:hover {
+  background-color: #9900b9;
+  color:#fff;
+}
 
 /* BACK TO THE TOP
 ----------------------------------------------- */
@@ -1376,7 +1443,7 @@ head.appendChild(script);
 .big-header {display:none;}
 </style>
 
-<div class="menu2">
+<div class='menu2'>
 <nav class='navbar navbar-fixed-top navbar-default' role='navigation'>
   <div class='container'>
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -2040,8 +2107,12 @@ head.appendChild(script);
             <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
           </b:if>
         </b:if>
-      </span> <span class='post-comment-link'>
-        <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                          and data:post.allowComments' data='post' name='comment_count_picker'/>
+      </span> <span class='post-comment-link' style='Float:right;'>
+
+<b:if cond='data:post.allowComments'>
+            <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 0'><b:else/> <b:if cond='data:post.numComments == 1'><data:post.numComments/> Comentário<b:else/><data:post.numComments/> Comentários</b:if> </b:if></a>
+</b:if>
+
       </span> <span class='post-icons'>
         <!-- email post links -->
         <b:if cond='data:post.emailPostUrl'>
@@ -2054,19 +2125,16 @@ head.appendChild(script);
 
         <!-- quickedit pencil -->
         <b:include data='post' name='postQuickEdit'/>
-      </span> <div class='post-share-buttons goog-inline-block'>
+      </span><div class='post-share-buttons goog-inline-block'>
         <b:include cond='data:post.sharePostUrl' data='post' name='shareButtons'/>
       </div> </div>
 
       <div class='post-footer-line post-footer-line-2'><span class='post-labels'>
         <b:if cond='data:post.labels'>
-          <data:postLabelsLabel/>
-          <b:loop values='data:post.labels' var='label'>
-<b:if cond='data:label.name == &quot;looks&quot;'>
-<a href='http://blogsoontobedelete.blogspot.com.br/search/label/looks' rel='tag'><span style='clear: left; display:inline; margin-bottom: 1em; margin-right:5px;'><img alt='ALT TAG' border='0' src='http://2.bp.blogspot.com/-U99O_-dw6Xw/VTgITu1BY4I/AAAAAAAAAIE/84fKIvADPP4/s1600/label-looks.png' title='LOOKS'/></span></a>
-</b:if>
 
-            <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='not data:label.isLast'>,</b:if>
+          <b:loop values='data:post.labels' var='label'>
+
+            <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='not data:label.isLast'/>
           </b:loop>
         </b:if>
       </span> </div>
@@ -2079,6 +2147,7 @@ head.appendChild(script);
           </b:if>
         </b:if>
       </span> </div>
+
       <b:if cond='data:post.authorAboutMe'>
         <div class='author-profile' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
           <b:if cond='data:post.authorPhoto.url'>
@@ -2094,6 +2163,7 @@ head.appendChild(script);
       </b:if>
     </div>
   </div>
+
 
 <a class='back-to-top' href='#'><img alt='Subir ao Topo' src='http://3.bp.blogspot.com/-oYA0LUwgqCs/VTqzPe1V0-I/AAAAAAAAAI8/BsTwMa4C080/s1600/backtotop.png'/></a>
 </b:includable>
@@ -2327,10 +2397,12 @@ head.appendChild(script);
   </script>
 </b:includable>
               <b:includable id='threaded_comments' var='post'>
+
+
+
   <div class='comments' id='comments'>
     <a name='comments'/>
-    <h4><data:post.commentLabelFull/>:</h4>
-
+<a class='comentar' style='font-family:Stalemate;font-size:40px;text-decoration:none;color:#cd65e3;' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>Comentar</a>
     <div class='comments-content'>
       <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
       <div id='comment-holder'>
