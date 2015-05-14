@@ -21,6 +21,7 @@
   <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'/>
 
 
+
     <b:skin><![CDATA[/*-----------------------------------------------
 
 Blogger Template Style
@@ -1057,8 +1058,8 @@ background-color:#fff;
 font-size: 13px;
 padding: 5px 12px;
 margin-right:5px;
-color: #cd65e3 !important;
-background-color:#fff;
+color: #f5f5f5 !important;
+background-color:#f5f5f5;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -1068,8 +1069,8 @@ background-color:#fff;
 font-size: 13px;
 padding: 5px 12px;
 margin-right:5px;
-color: #cd65e3 !important;
-background-color:#fff;
+color: #f5f5f5 !important;
+background-color:#f5f5f5;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -1079,8 +1080,8 @@ background-color:#fff;
 font-size: 13px;
 padding: 5px 12px;
 margin-right:5px;
-color: #cd65e3 !important;
-background-color:#fff;
+color: #f5f5f5 !important;
+background-color:#f5f5f5;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -1089,7 +1090,7 @@ background-color:#fff;
 ]]></b:skin>
 
     <b:template-skin>
-      <b:variable default='960px' name='content.width' type='length' value='1000px'/>
+      <b:variable default='960px' name='content.width' type='length' value='1056px'/>
       <b:variable default='0' name='main.column.left.width' type='length' value='330px'/>
       <b:variable default='310px' name='main.column.right.width' type='length' value='0px'/>
 
@@ -1174,7 +1175,7 @@ background-color:#fff;
         gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
           if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
             gapi.iframes.getContext().openChild({
-                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\075547864163448214627\46blogName\75test-new-blog-soon-delete\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75DISABLED\46layoutType\75LAYOUTS\46searchRoot\75http://blogsoontobedelete.blogspot.com/search\46blogLocale\75pt_BR\46v\0752\46homepageUrl\75http://blogsoontobedelete.blogspot.com/\46blogFollowUrl\75https://plus.google.com/111965818636778213075\46vt\75-5334562621111307056&#39;,
+                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\075547864163448214627\46blogName\75Cantinho+de+Menina\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75DISABLED\46layoutType\75LAYOUTS\46searchRoot\75//blogsoontobedelete.blogspot.com/search\46blogLocale\75pt_BR\46v\0752\46homepageUrl\75http://blogsoontobedelete.blogspot.com/\46blogFollowUrl\75https://plus.google.com/111965818636778213075\46vt\0751503219055604956355&#39;,
                 where: document.getElementById(&quot;navbar-iframe-container&quot;),
                 id: &quot;navbar-iframe&quot;
             });
@@ -1262,7 +1263,7 @@ head.appendChild(script);
 
 
   <div class='row'>
-    <div class='col-xs-6 col-md-4'><img src='http://1.bp.blogspot.com/-z2Oh7hSBZKY/VUwO_SHSNXI/AAAAAAAAAME/yYMpevIl1B0/s1600/logo-cantinho-de-menina.png' width="300px"/></div>
+    <div class='col-xs-6 col-md-4'><img src='http://1.bp.blogspot.com/-z2Oh7hSBZKY/VUwO_SHSNXI/AAAAAAAAAME/yYMpevIl1B0/s1600/logo-cantinho-de-menina.png' width='300px'/></div>
     <div class='col-xs-12 col-md-8 menu-top'>
       <div id='navcontainer'>
         <ul>
@@ -1304,11 +1305,13 @@ head.appendChild(script);
         }
 
         </style>
+
+    <!-- Fotos e Link SLIDE  -->
         <div class='flexslider'>
           <ul class='slides'>
             <li>
-                <a href='http://anajuliablanco.blogspot.com.br/'>
-                <img src='http://project.dimpost.com/flexslider-basic/img/1.jpg'/>
+                <a href='https://www.youtube.com/watch?v=8kfUPnblFfk'>
+                <img src='http://3.bp.blogspot.com/-Cp_RK-8iP2o/VVO1u9vXizI/AAAAAAAAAhY/EjMLm86T_38/s320/IMG_8336%5B1%5D.JPG'/>
                 </a>
             </li>
             <li>
@@ -1331,7 +1334,7 @@ head.appendChild(script);
 <div class='menu2'>
 
 
-<style type="text/css">
+<style type='text/css'>
 /*<![CDATA[*/
 .swtRBP {
 width:230px; /* Change the Width of each recent posts box */
@@ -1343,10 +1346,6 @@ margin-bottom: 30px !important;
 .swtRBP img {
 height: 85%; /* Change the width of each recent posts Thumbnail */
 width: 100%; /* Change the width of each recent posts Thumbnail */
-}
-
-.swtRBP p {
-font-size: 0.75em; /* Change the Font size of each recent posts Summary/Snippet/Excerpt */
 }
 .swtRBP {
 padding: 0.5em;
@@ -1360,16 +1359,6 @@ display: inline-block;
 .swtRBP img {
 margin-top: 2px;
 overflow: hidden;
-}
-.swtRBP span {
-color:#cd65e3;
-font-size: 0.75em;
-}
-.swt-rights {
-clear: both;
-}
-.swt-rights img {
-float:right;
 }
 .swtRBP a{
 color: #fff;
@@ -1385,26 +1374,17 @@ line-height:1.5;
 letter-spacing: 0;
 vertical-align: middle;
 }
-.swtRBP p {
-font-family: Helvetica;
-word-wrap: break-word;
-line-height: 1.3;
-color: #cd65e3;
-margin: 0.2em;
-overflow: hidden;
-padding: 0.4em;
-text-align: justify;
-}
+.swtRBP span,.swtRBP p {display:none}
 /*]]>*/
 </style>
-<script src="https://9e03e74125fb7ace004443ce27e5dcd1808a3961.googledrive.com/host/0B-tJ1weveGVDQWsyWjRNbHhtWFk/swtRBP-JavaScripts.js"></script>
-<script style="text/javascript">
+<script src='https://9e03e74125fb7ace004443ce27e5dcd1808a3961.googledrive.com/host/0B-tJ1weveGVDQWsyWjRNbHhtWFk/swtRBP-JavaScripts.js'/>
+<script style='text/javascript'>
 var swtRBPnumbers=4;
 var swtRBPsnippets=4;
-var swtRBPonimage = "http://4.bp.blogspot.com/-qt0jacXZ7cU/VI6veZzjzRI/AAAAAAAAFQk/wmsGtfm6_GM/s1600/Posts-Thumbnail.png";
+var swtRBPonimage = &quot;http://4.bp.blogspot.com/-qt0jacXZ7cU/VI6veZzjzRI/AAAAAAAAFQk/wmsGtfm6_GM/s1600/Posts-Thumbnail.png&quot;;
 var swtRBPright=false;
 </script>
-<script src="/feeds/posts/default?alt=json-in-script&amp;callback=swtRecentBlogPosts"></script>
+<script src='/feeds/posts/default?alt=json-in-script&amp;callback=swtRecentBlogPosts'/>
 
 
 
@@ -2525,20 +2505,18 @@ var swtRBPright=false;
       <b:section class='foot' id='footer-3' showaddelement='no'>
         <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
           <b:includable id='main'>
-    <b:if cond='data:feedbackSurveyLink'>
-      <div class='mobile-survey-link' style='text-align: center;'>
-        <data:feedbackSurveyLink/>
-      </div>
-    </b:if>
-
-    <div class='widget-content' style='text-align: center;'>
-      <b:if cond='data:attribution != &quot;&quot;'>
-       <data:attribution/>
-      </b:if>
-    </div>
-
-    <b:include name='quickedit'/>
-  </b:includable>
+                      <b:if cond='data:feedbackSurveyLink'>
+                        <div class='mobile-survey-link' style='text-align: center;'>
+                          <data:feedbackSurveyLink/>
+                        </div>
+                      </b:if>
+                      <div class='widget-content' style='text-align: center;'>
+                        <b:if cond='data:attribution != &quot;&quot;'>
+                          <data:attribution/>
+                        </b:if>
+                      </div>
+                      <b:include name='quickedit'/>
+                    </b:includable>
         </b:widget>
       </b:section>
     </div>
@@ -2683,6 +2661,37 @@ return false;
 </macro:includable>
 
 <b:section-contents id='sidebar-left-1'>
+  <b:widget id='PageList1' locked='false' title='' type='PageList'>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:loop values='data:links' var='link'>
+          <b:if cond='data:link.isCurrentPage'>
+            <option expr:value='data:link.href' selected='selected'><data:link.title/></option>
+          <b:else/>
+            <option expr:value='data:link.href'><data:link.title/></option>
+          </b:if>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <b:if cond='data:link.isCurrentPage'>
+            <li class='selected'><a expr:href='data:link.href'><data:link.title/></a></li>
+          <b:else/>
+            <li><a expr:href='data:link.href'><data:link.title/></a></li>
+          </b:if>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
   <b:widget id='HTML6' locked='false' title='' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
