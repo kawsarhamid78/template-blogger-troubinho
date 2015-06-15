@@ -1175,7 +1175,7 @@ background-color:#f5f5f5;
         gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
           if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
             gapi.iframes.getContext().openChild({
-                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\075547864163448214627\46blogName\75Cantinho+de+Menina\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75DISABLED\46layoutType\75LAYOUTS\46searchRoot\75//blogsoontobedelete.blogspot.com/search\46blogLocale\75pt_BR\46v\0752\46homepageUrl\75http://blogsoontobedelete.blogspot.com/\46blogFollowUrl\75https://plus.google.com/111965818636778213075\46vt\0751503219055604956355&#39;,
+                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\075547864163448214627\46blogName\75Cantinho+de+Menina\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75DISABLED\46layoutType\75LAYOUTS\46searchRoot\75//cantinhodeemenina.blogspot.com/search\46blogLocale\75pt_BR\46v\0752\46homepageUrl\75http://cantinhodeemenina.blogspot.com/\46blogFollowUrl\75https://plus.google.com/111965818636778213075\46vt\0751503219055604956355&#39;,
                 where: document.getElementById(&quot;navbar-iframe-container&quot;),
                 id: &quot;navbar-iframe&quot;
             });
@@ -1267,9 +1267,9 @@ head.appendChild(script);
     <div class='col-xs-12 col-md-8 menu-top'>
       <div id='navcontainer'>
         <ul>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/'><img src='http://1.bp.blogspot.com/-225JDBSIXa8/VTbyuvx3xbI/AAAAAAAAAEg/-YDRb1uJuDg/s1600/home.png'/>HOME</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/p/sobre.html'><img src='http://1.bp.blogspot.com/-VsI_trZ8Bao/VTbyxVJviFI/AAAAAAAAAFQ/bpfZ8bKjnyw/s1600/sobre.png'/>SOBRE</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/p/contato.html'><img src='http://2.bp.blogspot.com/-uOEO_BWStFw/VTbyuAsIFoI/AAAAAAAAAEI/6FcgATZ85Hg/s1600/contato.png'/>CONTATO</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/'><img src='http://1.bp.blogspot.com/-225JDBSIXa8/VTbyuvx3xbI/AAAAAAAAAEg/-YDRb1uJuDg/s1600/home.png'/>HOME</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/p/sobre.html'><img src='http://1.bp.blogspot.com/-VsI_trZ8Bao/VTbyxVJviFI/AAAAAAAAAFQ/bpfZ8bKjnyw/s1600/sobre.png'/>SOBRE</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/p/contato.html'><img src='http://2.bp.blogspot.com/-uOEO_BWStFw/VTbyuAsIFoI/AAAAAAAAAEI/6FcgATZ85Hg/s1600/contato.png'/>CONTATO</a></li>
         </ul>
       </div>
     </div>
@@ -1279,9 +1279,9 @@ head.appendChild(script);
   <div class='row'>
     <div class='col-xs-6 col-md-4'>
       <div class='perfil'>
-<img alt='Ana Júlia' class='img-circle' height='260px' src='http://1.bp.blogspot.com/-RGBKi2BHdos/VTf4Quld1BI/AAAAAAAAAGw/IE9NA_QmTxA/s1600/foto-perfil-disney.JPG' width='260px'/><br/><br/>Ana Júlia, 11 anos, blogueira, ama Disney, looks e gravar. Tem vontade de pular de paraquedas. <a href='http://blogsoontobedelete.blogspot.com.br/p/sobre.html'>Quer saber mais?</a></div>
+<img alt='Ana Júlia' class='img-circle' height='260px' src='http://1.bp.blogspot.com/-RGBKi2BHdos/VTf4Quld1BI/AAAAAAAAAGw/IE9NA_QmTxA/s1600/foto-perfil-disney.JPG' width='260px'/><br/><br/>Ana Júlia, 11 anos, blogueira, ama Disney, looks e gravar. Tem vontade de pular de paraquedas. <a href='http://cantinhodeemenina.blogspot.com.br/p/sobre.html'>Quer saber mais?</a></div>
 
-<div class='circle'><a href='http://blogsoontobedelete.blogspot.com/p/contato.html'><i class='fa fa-at fa-lg'/></a></div>
+<div class='circle'><a href='http://cantinhodeemenina.blogspot.com/p/contato.html'><i class='fa fa-at fa-lg'/></a></div>
 <div class='circle'><a href='https://instagram.com/anajuliablanco/'><i class='fa fa-instagram fa-lg'/></a></div>
 <div class='circle'><a href='https://www.youtube.com/user/cantinhodemenina'><i class='fa fa-youtube fa-lg'/></a></div>
     
@@ -1395,13 +1395,13 @@ var swtRBPright=false;
     <div class='col-xs-18 col-md-12 menu'>
       <div id='navcontainer'>
         <ul>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/looks'><img src='http://3.bp.blogspot.com/-EW1jfENxFzM/VTbyviUINyI/AAAAAAAAAEo/IkRwTt5hR00/s1600/looks.png'/>LOOKS</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/viagem'><img src='http://3.bp.blogspot.com/-b41uKdvwPOQ/VTbyxRw6zHI/AAAAAAAAAFI/ucq8qYrIKhg/s1600/viagem.png'/>VIAGEM</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/diy'><img src='http://3.bp.blogspot.com/-Z6Lg1lmM-04/VTbyw81nqRI/AAAAAAAAAE8/OrVSV6FQJss/s1600/tesoura.png'/>DIY</a></li>
-      <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/resenha'><img src='http://1.bp.blogspot.com/-tdpq5VKEN4I/VTbywpB4geI/AAAAAAAAAE4/UCYxy8Q6aKs/s1600/resenha.png'/>RESENHA</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/disney'><img src='http://4.bp.blogspot.com/-CZKgdWX9VhQ/VTbyuJ3NcXI/AAAAAAAAAEQ/WHiSrrgdF34/s1600/disney.png'/>DISNEY</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/p/videos.html'><img src='http://3.bp.blogspot.com/-XC2CFoGSN14/VTbyx2IoIvI/AAAAAAAAAFU/g8KDT5cbSgc/s1600/videos.png'/>VIDEOS</a></li>
-      <li><a href='http://blogsoontobedelete.blogspot.com/p/fotos.html'><img src='http://1.bp.blogspot.com/-b-K7iw6VPmU/VTbyuMcxS_I/AAAAAAAAAEM/MGgtqXx04qM/s1600/fotos.png'/>FOTOS</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/looks'><img src='http://3.bp.blogspot.com/-EW1jfENxFzM/VTbyviUINyI/AAAAAAAAAEo/IkRwTt5hR00/s1600/looks.png'/>LOOKS</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/viagem'><img src='http://3.bp.blogspot.com/-b41uKdvwPOQ/VTbyxRw6zHI/AAAAAAAAAFI/ucq8qYrIKhg/s1600/viagem.png'/>VIAGEM</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/diy'><img src='http://3.bp.blogspot.com/-Z6Lg1lmM-04/VTbyw81nqRI/AAAAAAAAAE8/OrVSV6FQJss/s1600/tesoura.png'/>DIY</a></li>
+      <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/resenha'><img src='http://1.bp.blogspot.com/-tdpq5VKEN4I/VTbywpB4geI/AAAAAAAAAE4/UCYxy8Q6aKs/s1600/resenha.png'/>RESENHA</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/disney'><img src='http://4.bp.blogspot.com/-CZKgdWX9VhQ/VTbyuJ3NcXI/AAAAAAAAAEQ/WHiSrrgdF34/s1600/disney.png'/>DISNEY</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/p/videos.html'><img src='http://3.bp.blogspot.com/-XC2CFoGSN14/VTbyx2IoIvI/AAAAAAAAAFU/g8KDT5cbSgc/s1600/videos.png'/>VIDEOS</a></li>
+      <li><a href='http://cantinhodeemenina.blogspot.com/p/fotos.html'><img src='http://1.bp.blogspot.com/-b-K7iw6VPmU/VTbyuMcxS_I/AAAAAAAAAEM/MGgtqXx04qM/s1600/fotos.png'/>FOTOS</a></li>
         </ul>
       </div>
     </div>
@@ -1425,17 +1425,17 @@ var swtRBPright=false;
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
       <ul class='nav navbar-nav'>
-    <li><a href='http://blogsoontobedelete.blogspot.com.br/'><img height='30px' src='http://1.bp.blogspot.com/-225JDBSIXa8/VTbyuvx3xbI/AAAAAAAAAEg/-YDRb1uJuDg/s1600/home.png'/>HOME</a></li>
+    <li><a href='http://cantinhodeemenina.blogspot.com.br/'><img height='30px' src='http://1.bp.blogspot.com/-225JDBSIXa8/VTbyuvx3xbI/AAAAAAAAAEg/-YDRb1uJuDg/s1600/home.png'/>HOME</a></li>
 
-    <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/looks'><img height='30px' src='http://3.bp.blogspot.com/-EW1jfENxFzM/VTbyviUINyI/AAAAAAAAAEo/IkRwTt5hR00/s1600/looks.png'/>LOOKS</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/viagem'><img height='30px' src='http://3.bp.blogspot.com/-b41uKdvwPOQ/VTbyxRw6zHI/AAAAAAAAAFI/ucq8qYrIKhg/s1600/viagem.png'/>VIAGEM</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/diy'><img height='30px' src='http://3.bp.blogspot.com/-Z6Lg1lmM-04/VTbyw81nqRI/AAAAAAAAAE8/OrVSV6FQJss/s1600/tesoura.png'/><br/>DIY</a></li>
-      <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/resenha'><img height='30px' src='http://1.bp.blogspot.com/-tdpq5VKEN4I/VTbywpB4geI/AAAAAAAAAE4/UCYxy8Q6aKs/s1600/resenha.png'/>RESENHA</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/search/label/disney'><img height='30px' src='http://4.bp.blogspot.com/-CZKgdWX9VhQ/VTbyuJ3NcXI/AAAAAAAAAEQ/WHiSrrgdF34/s1600/disney.png'/>DISNEY</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/p/videos.html'><img height='30px' src='http://3.bp.blogspot.com/-XC2CFoGSN14/VTbyx2IoIvI/AAAAAAAAAFU/g8KDT5cbSgc/s1600/videos.png'/>VIDEOS</a></li>
-      <li><a href='http://blogsoontobedelete.blogspot.com.br/p/fotos.html'><img height='30px' src='http://1.bp.blogspot.com/-b-K7iw6VPmU/VTbyuMcxS_I/AAAAAAAAAEM/MGgtqXx04qM/s1600/fotos.png'/>FOTOS</a></li>
-    <li><a href='http://blogsoontobedelete.blogspot.com.br/p/sobre.html'><img height='30px' src='http://1.bp.blogspot.com/-VsI_trZ8Bao/VTbyxVJviFI/AAAAAAAAAFQ/bpfZ8bKjnyw/s1600/sobre.png'/>SOBRE</a></li>
-          <li><a href='http://blogsoontobedelete.blogspot.com.br/p/contato.html'><img height='30px' src='http://2.bp.blogspot.com/-uOEO_BWStFw/VTbyuAsIFoI/AAAAAAAAAEI/6FcgATZ85Hg/s1600/contato.png'/>CONTATO</a></li>
+    <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/looks'><img height='30px' src='http://3.bp.blogspot.com/-EW1jfENxFzM/VTbyviUINyI/AAAAAAAAAEo/IkRwTt5hR00/s1600/looks.png'/>LOOKS</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/viagem'><img height='30px' src='http://3.bp.blogspot.com/-b41uKdvwPOQ/VTbyxRw6zHI/AAAAAAAAAFI/ucq8qYrIKhg/s1600/viagem.png'/>VIAGEM</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/diy'><img height='30px' src='http://3.bp.blogspot.com/-Z6Lg1lmM-04/VTbyw81nqRI/AAAAAAAAAE8/OrVSV6FQJss/s1600/tesoura.png'/><br/>DIY</a></li>
+      <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/resenha'><img height='30px' src='http://1.bp.blogspot.com/-tdpq5VKEN4I/VTbywpB4geI/AAAAAAAAAE4/UCYxy8Q6aKs/s1600/resenha.png'/>RESENHA</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/search/label/disney'><img height='30px' src='http://4.bp.blogspot.com/-CZKgdWX9VhQ/VTbyuJ3NcXI/AAAAAAAAAEQ/WHiSrrgdF34/s1600/disney.png'/>DISNEY</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/p/videos.html'><img height='30px' src='http://3.bp.blogspot.com/-XC2CFoGSN14/VTbyx2IoIvI/AAAAAAAAAFU/g8KDT5cbSgc/s1600/videos.png'/>VIDEOS</a></li>
+      <li><a href='http://cantinhodeemenina.blogspot.com.br/p/fotos.html'><img height='30px' src='http://1.bp.blogspot.com/-b-K7iw6VPmU/VTbyuMcxS_I/AAAAAAAAAEM/MGgtqXx04qM/s1600/fotos.png'/>FOTOS</a></li>
+    <li><a href='http://cantinhodeemenina.blogspot.com.br/p/sobre.html'><img height='30px' src='http://1.bp.blogspot.com/-VsI_trZ8Bao/VTbyxVJviFI/AAAAAAAAAFQ/bpfZ8bKjnyw/s1600/sobre.png'/>SOBRE</a></li>
+          <li><a href='http://cantinhodeemenina.blogspot.com.br/p/contato.html'><img height='30px' src='http://2.bp.blogspot.com/-uOEO_BWStFw/VTbyuAsIFoI/AAAAAAAAAEI/6FcgATZ85Hg/s1600/contato.png'/>CONTATO</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
